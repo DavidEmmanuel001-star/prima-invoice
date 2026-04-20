@@ -47,11 +47,11 @@ if st.session_state.get("show_upgrade", False):
     
     st.info(f"""
     **Bank Transfer Details:**
-    - Bank: **{Sterling Bank}**
-    - Account Number: **{0101152030}**
-    - Account Name: **{Emmanuel David}**
+    - Bank: **{"Sterling Bank"}**
+    - Account Number: **{"0101152030"}**
+    - Account Name: **{"Emmanuel David"}**
     
-    **Narration:** PrimaInvoice Pro - [David Emmanuel]
+    **Narration:** PrimaInvoice Pro - ["David Emmanuel"]
     """)
     
     entered_code = st.text_input("Last 6 digits of transaction ref", placeholder="123456")
