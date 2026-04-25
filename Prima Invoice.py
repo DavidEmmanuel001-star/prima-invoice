@@ -6,6 +6,16 @@ import io
 import base64
 
 st.set_page_config(page_title="PrimaInvoice", page_icon="🇳🇬", layout="centered")
+st.markdown("""
+<div style="text-align: center; padding: 10px; background-color: #f0f8ff; border-radius: 10px;">
+    <h3>📱 Install as App on your Phone (Free!)</h3>
+    <p><strong>On Android (Chrome):</strong><br>
+    Tap the three dots ⋮ → "Add to home screen" or "Install app"</p>
+    <p><strong>On iPhone (Safari):</strong><br>
+    Tap the Share button → "Add to Home Screen"</p>
+    <p>After installing, it will open like a real app with its own icon!</p>
+</div>
+""", unsafe_allow_html=True)
 
 # === YOUR BANK DETAILS - 
 BANK_NAME = "Sterling Bank"                  
